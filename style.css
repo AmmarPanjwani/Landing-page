@@ -1,0 +1,158 @@
+body{
+    font-family: Roboto;
+    margin: 0px;
+    
+}
+.header{
+    background: #1F2937;
+}
+
+.header-links{
+background: #1f2937;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 18px;
+
+}
+
+
+.header-links img{
+    max-width: 50px;
+    height: auto;
+    padding-left: 125px;
+    margin: 10px;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+    padding-right: 125px;
+    align-items: center;
+    align-content: center;
+}
+
+
+a:link {
+        text-decoration: none;
+        color: #e5e7eb;
+      }
+    
+a:active { 
+        text-decoration: none; 
+        color: #e5e7eb;
+      }
+a:hover{
+        text-decoration: none;
+        color: #e5e7eb;
+      }
+a:visited{
+        text-decoration: none;
+        color: #e5e7eb;
+      }
+
+
+
+
+.info1{
+  
+    background-color: #1f2937;
+    padding-left: 125px;
+   padding-top: 75px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 75px;
+   
+}
+.title{
+color: #F9FAF8;
+font-weight: bolder;
+font-size: 48px;
+flex-wrap: wrap;
+max-width: 500px;
+
+}
+.text{
+font-size: 18px;
+color: #e5e7eb;
+flex-wrap: wrap;
+max-width: 500px;
+padding-left: 5px;
+}
+.info1 button{
+    background-color: #3882F6;
+    color: white;
+    font-weight: 600;
+    padding: 10px 10px 10px 10px;
+    border: 0px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.info1 img{
+    display: flex;
+    flex-direction: row;
+    padding-left: 125px;
+    min-width: 400px;
+    max-width: 450px;
+    height: auto;
+    border: 40px;
+    padding-right: 125px;
+
+}
+
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 25px;
+}
+.info2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+    padding-right: 150px;
+    gap: 20px;
+    justify-content: space-evenly;
+    
+    
+
+}
+.info2 img{
+    background-color: #3882F6;
+    padding: 2px;
+  
+
+}
+ul {
+    list-style-type: none;
+  }
+
+  
+  .info3{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: space-evenly;
+    gap: 0px;
+    border: 0px;
+    margin: 0px;
+   
+
+
+}
+.t1, .t2, .t3, .t4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-wrap: wrap;
+
+}
